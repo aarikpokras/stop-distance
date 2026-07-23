@@ -17,7 +17,7 @@ The stopping distance is also presented in many units, namely:
 * Nautical miles (NMI)
 * Lunar equatorial degrees of longitude (marked with EQDLNG)
 
-During the simulation, values will be output in the following format:
+During the simulation, values will be outputted in the following format:
 ```
 Iteration {iter}
 t     = time
