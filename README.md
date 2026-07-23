@@ -1,5 +1,5 @@
 # Stopping Distance Simulator
-Uses an Euler integrator to predict stopping distance ground track (tuned for the Apollo LM's DPS, but can be changed)
+Uses an Euler integrator to predict stopping distance ground track (tuned for the Apollo LM's DPS, but can be used for anything I guess)
 
 ## Presentation
 The results of the simulator are output in the following format:
@@ -36,6 +36,7 @@ v     = velocity
     * Assumes a non-rotating Moon
     * Assumes a flat Moon (not *that* big of a problem)
     * Does not change mass rate (mdot) based on variable thrust (problem because of the 26-second low-thrust period after PDI)
+    * Assumes perfectly flat orbital trajectory (basically ignores arc distance traveled over Moon)
 
 Hopefully it adds to the merit of this project that I also included the 26-second low-thrust period after powered descent ignition (PDI) as a sigmoid.
 
