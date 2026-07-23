@@ -43,4 +43,4 @@ Hopefully it adds to the merit of this project that I also included the 26-secon
 * If constant thrust, uncomment the thrust variable and change `thrust(t)` to `thrust` in the first line of the loop.
 * By reversing the same method, you can make any of these variables variable.
 
-nasa pls hire \ soon i will make a verlet 4bp integrator 🙏
+nasa pls hire&nbsp;&nbsp;soon i will make a verlet 4bp integrator 🙏
