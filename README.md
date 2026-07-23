@@ -2,7 +2,7 @@
 Uses an Euler integrator to predict stopping distance ground track (tuned for the Apollo LM's DPS, but can be used for anything I guess)
 
 ## Presentation
-The results of the simulator are output in the following format:
+The results of the simulator are outputted in the following format:
 ```
 VAR  UNIT    VALUE
 ------------------
