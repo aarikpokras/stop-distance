@@ -6,7 +6,7 @@ The results of the simulator are output in the following format:
 ```
 VAR  UNIT    VALUE
 ------------------
-V    M/S  =  0.2
+V    M/S  =  -0.22342356
 ```
 
 Of course, ideally, velocity should be zero by the end of the simulation, but this is not possible with this method of numerical integration.
@@ -38,3 +38,9 @@ v     = velocity
     * Does not change mass rate (mdot) based on variable thrust (problem because of the 26-second low-thrust period after PDI)
 
 Hopefully it adds to the merit of this project that I also included the 26-second low-thrust period after powered descent ignition (PDI) as a sigmoid.
+
+## Customize this for your own usage
+* If constant thrust, uncomment the thrust variable and change `thrust(t)` to `thrust` in the first line of the loop.
+* By reversing the same method, you can make any of these variables variable.
+
+nasa pls hire  soon i will make a verlet 4bp integrator 🙏
