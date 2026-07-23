@@ -41,7 +41,7 @@ v     = velocity
 Hopefully it adds to the merit of this project that I also included the 26-second low-thrust period after powered descent ignition (PDI) as a sigmoid.
 
 ## Customize this for your own usage
-* If constant thrust, uncomment the thrust variable and change `thrust(t)` to `thrust` in the first line of the loop.
+* If constant thrust, uncomment the thrust variable, comment out the thrust function, and change `thrust(t)` to `thrust` in the first line of the loop.
 * By reversing the same method, you can make any of these variables variable.
 
 nasa pls hire&nbsp;&nbsp;soon i will make a verlet 4bp integrator 🙏
