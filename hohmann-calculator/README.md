@@ -1,7 +1,7 @@
 # Hohmann Transfer Calculator
 A calculator for ascending Hohmann transfers between circular orbits, using Keplerian motion.
 
-The calculator outputs the phase angle (in this program solely based on orbital period) required for a rendezvous between objects. The phase angle describes how many degrees of difference there must be (relative to the center of the body) for the Hohmann burn to start and for the chaser to reach the target.
+The calculator outputs the phase angle (in this program solely based on orbital period) required for a rendezvous between spacecraft. The phase angle describes how many degrees of difference there must be (relative to the center of the body) for the Hohmann burn to start and for the chaser to reach the target.
 
 ## Customization
 The hash box indicates the designated area for modification. It includes:
