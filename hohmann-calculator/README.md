@@ -8,7 +8,7 @@ The hash box indicates the designated area for modification. It includes:
 
 |Name|Purpose|
 |---|---|
-|Mu|Gravitational Parameter (GM)|
+|mu|Gravitational Parameter (GM)|
 |h0|Radius of the body being orbited|
 |h_chase|Height of the orbit of the chaser above the **surface**|
 |h_target|Height of the orbit of the target above the **surface**|
